@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0.0" type="plugin" group="api" method="upgrade">
+    <name>Articles API Plugin</name>
+    <version>1.0</version>
+    <creationDate>07/29/2018</creationDate>
+    <author>Yannik Vole</author>
+    <description></description>
+    <files>
+        <filename plugin="articles">articles.php</filename>
+        <folder>articles</folder>
+    </files>
+    <languages folder="language">
+        <language tag="en-GB">en-GB/en-GB.plg_api_plugin_name.ini</language>
+        <language tag="en-GB">en-GB/en-GB.plg_api_plugin_name.sys.ini</language>
+    </languages>
+
+</extension>
